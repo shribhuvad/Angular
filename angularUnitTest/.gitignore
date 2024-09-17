@@ -7,10 +7,7 @@
 /bazel-out
 
 # Node
-/angularUnitTest/node_modules
-/hotel-app/node_modules
-/appointment-app/node_modules
-/ecom/node_modules
+/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -24,7 +21,6 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-/angularUnitTest/.vscode/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -33,14 +29,7 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/angularUnitTest/.angular/cache
-/ecom/.angular/cache
-/hotel-app/.angular/cache
-/appointment-app/.angular/cache
-/ecom/.sass-cache/
-/hotel-app/.sass-cache/
-/appointment-app/.sass-cache/
-/angularUnitTest/.sass-cache
+/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage

@@ -1,0 +1,46 @@
+ng --version
+#
+ng new MyfirstAngularProject
+
+
+17+
+ng new ecom --no-standalone
+
+#To create new component
+ng g component appointment-list
+
+#To create Interface
+ng g interface models/appointment
+
+#To generate module
+ng g module home
+ng g component home --module=home
+
+ng g service product/product
+
+ng g class models/product
+
+ng g environments
+
+#
+ng serve --configuration=production
+ng add @angular/material
+
+
+###
+ng serve -o
+
+npm install -g @angular/cli@14
+
+
+npm install @angular/cli@16.1.6 --location=global
+
+npm unstall  @angular/cli --location=global
+
+npm install bootstrap@5.3
+
+if you have decided to go with version 17 over version 16 you will have to add the --no-standalone in the project creation command: ng new my-app --no-standalone
+If you forget to add this flag you will have no global app.module.ts file which is required to register several services.
+Again! If you create a new project with Angular 17 you have to add the --no-standalone option to the command
+
+

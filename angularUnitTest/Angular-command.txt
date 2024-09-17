@@ -1,0 +1,5 @@
+ng g service user/user
+
+ng g componenet user/user-list
+
+ng test --watch=false    //EXECUTE TEST AND SHUT DOWN BROWSER
